@@ -14,6 +14,7 @@ function NotFoundPage() {
         Ayo segera kembali ke
         {' '}
         <Link to="/">rumah</Link>
+        {' '}
         sebelum hari menjadi gelap.
       </p>
     </div>
