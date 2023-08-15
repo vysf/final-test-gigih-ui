@@ -1,8 +1,10 @@
-# React + Vite
+# Final Test GIGIH 3.0
+## How to run
+You can use this command to run:
+```
+npm run dev
+```
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+User can open, at least two page
+1. Home Page => "/"
+2. Video Detail Page => "/watch/:id"
