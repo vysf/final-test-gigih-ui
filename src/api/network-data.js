@@ -2,7 +2,7 @@
 /* eslint-disable no-console */
 import axios from 'axios';
 
-const BASE_URL = import.meta.env.VITE_APP_BASE_URL || 'http://10.100.3.93:5002';
+const BASE_URL = import.meta.env.VITE_APP_BASE_URL || 'http://localhost:5002';
 
 async function getVideos() {
   try {
