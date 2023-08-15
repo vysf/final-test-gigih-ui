@@ -14,12 +14,7 @@ function NotFoundPage() {
         Segera kembali ke
         {' '}
         <Link to="/">rumah</Link>
-        {' '}
-        atau nikmati
-        {' '}
-        <Link to="/watch/mockupVideo">video</Link>
-        {' '}
-        ini.
+        .
       </p>
     </div>
   );
