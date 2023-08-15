@@ -11,10 +11,10 @@ function NotFoundPage() {
       <img src={image404} alt="404" width="40%" />
       <span>Sepertinya kamu tersesat</span>
       <p>
-        Segera kembali ke
+        Ayo segera kembali ke
         {' '}
         <Link to="/">rumah</Link>
-        .
+        sebelum hari menjadi gelap.
       </p>
     </div>
   );
