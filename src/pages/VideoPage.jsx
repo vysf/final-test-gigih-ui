@@ -21,8 +21,8 @@ function VideoPage() {
   const [video, videoLoading] = useVideo(id);
   const [comments, commentsLoading, setComments] = useComments(id);
 
-  const [name, handleNameChange] = useInput('');
-  const [body, handleBodyChange] = useInput('');
+  const [name, handleNameChange, setName] = useInput('');
+  const [body, handleBodyChange, setBody] = useInput('');
 
   const handleForm = (e) => {
     e.preventDefault();
@@ -38,6 +38,8 @@ function VideoPage() {
     postCommentToVideo(id, formObject)
       .then(() => {
         setComments((prevComments) => [formObject, ...prevComments]);
+        setName('');
+        setBody('');
       }).catch((err) => {
         console.log(err);
       });
